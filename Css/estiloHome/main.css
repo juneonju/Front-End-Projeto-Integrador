@@ -1,0 +1,130 @@
+#container-geral {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+#tipos-acoes {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container{
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    width: 400px;
+    height: 450px;
+}
+
+.titulo {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+#container-acoes, #container-BDRs, #container-fundos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 340px;
+    overflow: auto;
+    color: black;
+}
+
+.divAcao {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+#container-acoes h1 {
+    margin-bottom: 25px;
+}
+
+#container-BDRs h1 {
+    margin-bottom: 25px;
+}
+
+#container-info {
+    display: flex;
+    justify-content: center;
+}
+
+#container-info a {
+    display: flex;
+    color: black;
+}
+
+.videos-youtube {
+
+    display: flex;
+    gap: 40px;
+    width: 1280px;
+    align-items: center;
+}
+
+.video {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.divImgAcao {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 120px;
+}
+
+.nameAcao {
+    word-break:break-all;
+    margin-top: 10px;
+    font-weight: bold;
+ 
+}
+
+#container-acoes::-webkit-scrollbar {
+    width: 6px;
+    background: white;
+}
+
+#container-acoes::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+#container-acoes::-webkit-scrollbar-track {
+    background-color: #D9D9D9;;
+}
+
+#container-BDRs::-webkit-scrollbar {
+    width: 6px;
+    background: white;
+}
+
+#container-BDRs::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+#container-BDRs::-webkit-scrollbar-track {
+    background-color: #D9D9D9;;
+}
+
+#container-fundos::-webkit-scrollbar {
+    width: 6px;
+    background: white;
+}
+
+#container-fundos::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+#container-fundos::-webkit-scrollbar-track {
+    background-color: #D9D9D9;;
+}

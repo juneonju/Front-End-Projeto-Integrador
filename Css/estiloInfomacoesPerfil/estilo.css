@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #FCA313;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0,0.5);
+    z-index: 1;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCA313;
+    box-shadow: 1px 1px 10px black;
+    z-index: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color:  white;
+    flex: 1;
+}
+
+::placeholder {
+    font-size: small;
+}
+
+::-webkit-datetime-edit { 
+    margin-left: 30px; 
+}
+
+::-webkit-datetime-edit-text { 
+    color: rgb(0, 0, 0); padding: 0 0.8em; 
+}
+
+::-webkit-inner-spin-button {
+    display: none; 
+}
+
+::-webkit-calendar-picker-indicator {
+    margin-right: 20px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}

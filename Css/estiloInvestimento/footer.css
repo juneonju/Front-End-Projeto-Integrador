@@ -1,0 +1,36 @@
+#divLogoFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemFooter {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.imagemFooter:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.aRodape {   
+    color: black;
+    text-decoration: none;
+}
+
+.aRodape:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}

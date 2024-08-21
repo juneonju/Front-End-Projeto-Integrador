@@ -1,0 +1,16 @@
+#divP {
+    margin-top: 20px;
+    width: 1100px;
+    text-align: justify;
+}
+
+#divTitulo {
+    width: 1100px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.pMain {
+    margin-top: 10px;
+}

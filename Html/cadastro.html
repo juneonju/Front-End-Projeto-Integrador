@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/estiloCadastro/estilo.css">
+    <link rel="stylesheet" href="../Css/estiloCadastro/footer.css">
+    <link rel="stylesheet" href="../Css/estiloCadastro/header.css">
+    <link rel="stylesheet" href="../Css/estiloCadastro/main.css">
+    <script src="../JavaScript/scriptCadastro/script.js" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header>
+
+        <div id="divLogo">
+            <a href="autenticacao.html"><img class="logoPorco" src="../imagens/logoPorco.png" alt="Porco"></a>
+            <a href="autenticacao.html"><img id="nomePreto" src="../imagens/nomePreto.png" alt="Nome"></a>
+        </div>
+
+        <div id="containerBotao">
+
+            <div class="divBotao">
+                <a href="login.html"><button class="botaoHeader">LOGIN</button></a>
+            </div>
+
+            <div class="divBotao">
+               <a href="autenticacao.html"><button class="botaoHeader">VOLTAR</button></a> 
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div id="div-titulo">
+            <h1 class="titulo">Bem-vindo à RD Investimento!</h1>
+        </div>
+
+        <div id="div-primeiro-texto">
+            <p id="descricao-primeiro-texto">Você já imaginou como seria a sua vida com mais liberdade financeira? Chegou a hora de transformar essa visão em realidade. Nosso site de investimentos é a chave para abrir um mundo de oportunidades e crescimento pessoal. <br> Cadastre-se agora e dê o primeiro passo rumo à independência financeira. Junte-se a investidores que já estão transformando suas vidas e alcançando seus sonhos.</p>
+        </div> 
+        
+        <div id="caixasInformacao">
+
+                <div>
+                    <h5 class="titulo-input">Nome completo:</h5>
+                    <input type="text" class="input" id="input-nome" required>
+                </div>
+        
+                <div>
+                    <h5 class="titulo-input">CPF:</h5>
+                    <input type="text" class="input" id="input-cpf" maxlength="14" autocomplete="off" required>
+                </div>
+        
+                <div>
+                    <h5 class="titulo-input">Data de Nascimento:</h5>
+                    <input type="date" class="input" id="input-data-nascimento" required>
+                </div>
+        
+                <div>
+                    <h5 class="titulo-input">Email:</h5>
+                    <input type="email" class="input" id="input-email" required>
+                </div>
+        
+                <div>
+                    <h5 class="titulo-input">Telefone:</h5>
+                    <input type="tel" class="input" id="input-telefone" required>
+                </div>
+        
+                <div>
+
+                    <h5 class="titulo-input">Senha:</h5>
+
+                    <div  class="div-mostrar-senha">
+                        <input type="password" class="input" id="input-senha" autocomplete="off" required>
+                        <img id="img-olho-senha" class="img-olho" src="../imagens/Olho fechado.png" alt="imagem-olho-fechado" width="30px" height="30px">
+                    </div>
+                    
+                </div>
+        
+                <div>
+
+                    <h5 class="titulo-input">Confirmar Senha:</h5>
+                    
+                    <div class="div-mostrar-senha">
+                        <input type="password" class="input" id="input-confirmar-senha" autocomplete="off" required>
+                        <img id="img-olho-confirmar-senha"  class="img-olho" src="../imagens/Olho fechado.png" alt="imagem-olho-fechado"  width="30px" height="30px">
+                    </div>
+                    
+                </div>
+                
+        </div>      
+
+        <div id="div-segundo-texto">
+            <p class="descricao-segundo-texto"><b>A senha deve ter no mínimo 8 caracteres, uma letra
+                maiúscula, uma letra minúscula, um número e um caracter especial.</b></p>
+            <p class="descricao-segundo-texto">Ao clicar em "Enviar informações" você autoriza a RD 
+                Investimentos a coletar seus dados pessoais de acordo com a nossa
+                Política de Privacidade com o objetivo de comunicar informações sobre
+                o processo de abertura da sua conta.</p>
+        </div>
+
+        <div id="botaoEnviar">
+            <button class="botao" id="botao-enviar-informacoes">Enviar informações</button>
+        </div>
+
+    </main> 
+
+    <footer>
+
+        <div id="divLogoFooter">
+            <a href="autenticacao.html"><img class="logoPorco" src="../imagens/logoPorco.png" alt="Porco"></a>
+        </div>
+
+        <div class="rodape">
+            <a class="aRodape" href="suporte.html">Suporte</a>
+            
+            <a class="aRodape" href="privacidade.html">Polítca de Privacidade</a>
+        </div>
+
+        <div class="rodape">
+            <p class="textoRodape">Horário: 8hrs - 18hrs</p>
+            <p class="textoRodape">Telefone: (11) 98874-6969</p>
+            <p class="textoRodape">Email: rdinvestimentos@gmail.com</p>
+        </div>
+
+        <div class="rodape">
+            <p class="textoRodape">Local: Faria Lima, 108</p>
+            <p class="textoRodape">São Paulo - Brasil</p>
+        </div>
+
+        <div id="divRedeSocial">
+            <a href="https://www.facebook.com/"><img class="imagemFooter" src="../imagens/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img class="imagemFooter" src="../imagens/instagram.png" alt="instagram"></a>
+            <a href="https://x.com/?lang=pt-br"><img class="imagemFooter" src="../imagens/twitter.png" alt="twitter"></a>
+            <a href="https://www.whatsapp.com/?lang=pt_BR"><img class="imagemFooter" src="../imagens/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.youtube.com/?gl=BR&hl=PT"><img class="imagemFooter" src="../imagens/youtube.png" alt="youtube"></a>
+        </div>
+
+    </footer>
+
+</body>
+</html>

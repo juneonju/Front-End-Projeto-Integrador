@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/estiloInfomacoesPerfil/estilo.css">
+    <link rel="stylesheet" href="../Css/estiloInfomacoesPerfil/footer.css">
+    <link rel="stylesheet" href="../Css/estiloInfomacoesPerfil/header.css">
+    <link rel="stylesheet" href="../Css/estiloInfomacoesPerfil/main.css">
+    <script src="../JavaScript/scriptInfoPessoais/script.js" defer></script>
+    <title>Informações Perfil</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div id="divLogo">
+            <a href="home.html"><img class="logoPorco" src="../imagens/logoPorco.png" alt="Porco"></a>
+            <a href="home.html"><img id="nomePreto" src="../imagens/nomePreto.png" alt="Nome"></a>
+        </div>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="seguranca.html">Segurança</a>
+            <a href="investimento.html">Investimento</a>
+            <a href="informacoesPerfil.html">Perfil</a>
+        </nav>
+
+        <a href="informacoesPerfil.html"><img id="perfil" src="../imagens/perfil.png" alt="perfil"></a>
+
+
+    </header>
+
+    <main>
+
+        <div id="ContainerFotoNome">
+
+            <div id="fotoConta">
+                <img class="Img" src="../imagens/perfil.png">
+            </div>
+        
+            <div id="nomeConta">
+                <h1 id="h1">Perfil</h1>
+            </div>
+
+        </div>
+        
+        <div id="containerInformacoesConta">
+
+            <div id="botaoEditarSair">
+                <button id="botaoEditar">Editar</button>
+                <a href="autenticacao.html"><button id="botaoSair">Sair</button></a>
+            </div>
+
+            <div id="containerNomeInfo">
+                <p class="text">Nome</p>
+                <input type="text" name="nome" class="box" id="Box1" disabled required >
+            </div>
+
+            <div id="containerTelefoneEmailInfo">
+
+                <div>
+                    <p class="text" id="text2">Email</p>
+                    <input type="email" name="Email" class="box" id="Box2" disabled required >
+                </div>
+
+                <div>
+                    <p class="text" id="text3">Telefone</p>
+                    <input type="text" name="Telefone" class="box" id="Box3" disabled required >
+                </div>
+
+            </div>
+
+            <div id="containerCpfDatInfo">
+
+                <div>
+                    <p class="text" id="text4">CPF</p>
+                    <input type="text" maxlength="14" name="cpf" class="box" id="Box4" disabled required >
+                </div>
+
+                <div>
+                    <p class="text" id="text5">Data de nascimento</p>
+                    <input type="date" name="Data" class="box" id="Box5" disabled>
+                </div>
+
+            </div>
+
+            <div id="botoesCancelarSalvar">
+                <button id="botaoCancelar" disabled>Cancelar</button>
+                <button id="botaoSalvar" disabled>Salvar</button>
+            </div>
+
+        </div>
+
+    </main>
+    
+    <footer>
+
+        <div id="divLogoFooter">
+            <a href="home.html"><img class="logoPorco" src="../imagens/logoPorco.png" alt="Porco"></a>
+        </div>
+
+        <div class="rodape">
+            <a class="aRodape" href="suportePerfil.html">Suporte</a>
+            <a class="aRodape" href="privacidadePerfil.html">Polítca de Privacidade</a>
+        </div>
+
+        <div class="rodape">
+            <p class="textoRodape">Horário: 8hrs - 18hrs</p>
+            <p class="textoRodape">Telefone: (11) 98874-6969</p>
+            <p class="textoRodape">Email: rdinvestimentos@gmail.com</p>
+        </div>
+
+        <div class="rodape">
+            <p class="textoRodape">Local: Faria Lima, 108</p>
+            <p class="textoRodape">São Paulo - Brasil</p>
+        </div>
+
+        <div id="divRedeSocial">
+            <a href="https://www.facebook.com/"><img class="imagemFooter" src="../imagens/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img class="imagemFooter" src="../imagens/instagram.png" alt="instagram"></a>
+            <a href="https://x.com/?lang=pt-br"><img class="imagemFooter" src="../imagens/twitter.png" alt="twitter"></a>
+            <a href="https://www.whatsapp.com/?lang=pt_BR"><img class="imagemFooter" src="../imagens/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.youtube.com/?gl=BR&hl=PT"><img class="imagemFooter" src="../imagens/youtube.png" alt="youtube"></a>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

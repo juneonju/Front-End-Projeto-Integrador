@@ -1,0 +1,58 @@
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    width: 500px;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.botao-main {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.botao-main:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.imagem-main {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.container-conteudo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estrura-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.div-titulo {
+    height: 60px;
+}
+
+.div-botao {
+   margin-top: 30px;
+}

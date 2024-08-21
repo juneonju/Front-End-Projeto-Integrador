@@ -1,0 +1,136 @@
+#abas {
+    display: flex;
+    height: 70px;
+    width: 600px;
+    margin-right: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    height: 500px;
+    width: 1100px;
+    background-color: #D9D9D9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#acoes {
+    height: 70px;
+    width: 200px;
+    background-color: #D9D9D9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 3;
+    text-align: center;
+}
+
+#acoes:hover{
+    cursor: pointer;
+}
+
+#acoes h1 {
+    margin-top: 20px;
+}
+
+#bdrs {
+    height: 70px;
+    width: 200px;
+    background-color: #BABABA;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 2;
+    text-align: center;
+}
+
+#bdrs:hover{
+    cursor: pointer;
+}
+
+#bdrs h1 {
+    margin-top: 20px;
+}
+
+#fundos {
+    height: 70px;
+    width: 200px;
+    background-color: #979696;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 1;
+    text-align: center;
+}
+#fundos:hover{
+    cursor: pointer;
+
+}
+
+#fundos h1 {
+    margin-top: 20px;
+}
+
+#informacoes {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: white;
+    height: 420px;
+    width: 1000px;
+    border-radius: 20px;
+}
+#ativosAcao{
+    width: 330px;
+    text-align: center;
+}
+.nomeAcao{
+    text-align: center;
+    width: 200px;
+}
+
+.menuAcao {
+    text-align: left;
+    width: 190px;
+}
+
+#tiposInformacoes {
+    margin-top: 10px;
+    width: 1000px;
+    display: flex;
+    height: 50px;
+    gap: 30px;
+}
+
+#areaDivsApi {
+    overflow: auto;
+    height: 345px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+::-webkit-scrollbar {
+    border-radius: 20px;
+}
+
+.divImgAcao {
+    display: flex;
+    
+    align-items: center;
+}
+
+.divAcao {
+    border-bottom: solid;
+    height: 150px;
+    width: 970px;
+}
+
+.botaoInvestir {
+    font-size: medium;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #FFD350;
+}

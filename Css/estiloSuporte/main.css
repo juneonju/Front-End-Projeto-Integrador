@@ -1,0 +1,63 @@
+#container {
+   
+    width: 1100px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+#divAjustes {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    background-color:#dfdddd;
+    padding: 10px;
+}
+
+#divBotao {
+    display: flex;
+}
+
+select {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 1080px;
+    background-color:#b8b8b8 ;
+    height: 30px;
+}
+
+textarea {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#b8b8b8 ;
+    resize:none;
+    height:100px ;
+    width:1060px ;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#b8b8b8 ;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.divTamanho {
+    margin: 10px;
+}

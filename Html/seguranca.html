@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/estiloSeguranca/estilo.css">
+    <link rel="stylesheet" href="../Css/estiloSeguranca/footer.css">
+    <link rel="stylesheet" href="../Css/estiloSeguranca/header.css">
+    <link rel="stylesheet" href="../Css/estiloSeguranca/main.css">
+    <script src="../JavaScript/scriptSeguranca/script.js" defer></script>
+    <title>Segurança</title>
+</head>
+<body>
+
+    <header>
+
+        <div id="divLogo">
+            <a href="home.html"><img class="logoPorco" src="../imagens/logoPorco.png" alt="Porco"></a>
+            <a href="home.html"><img id="nomePreto" src="../imagens/nomePreto.png" alt="Nome"></a>
+        </div>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="seguranca.html">Segurança</a>
+            <a href="investimento.html">Investimento</a>
+            <a href="informacoesPerfil.html">Perfil</a>
+        </nav>
+
+        <a href="informacoesPerfil.html"><img id="perfil" src="../imagens/perfil.png" alt="perfil"></a>
+
+
+    </header>
+
+    <div id="fundo-com-opacidade" class="esconder"></div>
+    <div id="modal" class="esconder">
+        <div class="modal-header">
+            <h2>Notificação</h2>
+            <button id="fechar-modal">Fechar</button>
+        </div>
+        <div class="modal-body">
+            <h3 id="campo-texto-erro"></h3>
+        </div>
+    </div>
+
+    <main>
+
+        <div id="containerGeral">
+
+            <div id="divAtualizarSenha">
+                <form id="form">
+                    <div id="divSenhaAtual">
+                        <label for="">Senha Atual</label>
+                        <div class="divOlho">
+                            <input type="password" id="Box1">
+                            <img  id="senhaAtual" class="imgOlho" width="30px" height="30px" src="../imagens/Olho fechado.png" alt="">
+                        </div>
+                        
+                    </div>
+
+                    <div id="divNovaSenha">
+                        <label for="">Nova Senha</label>
+                        <div class="divOlho">
+                            <input type="password" id="Box2">
+                            <img  id="senhaNova" class="imgOlho" width="30px" height="30px" src="../imagens/Olho fechado.png" alt="">
+                        </div>
+                        
+                    </div>
+
+                    <div id="divConfirmarSenha">
+                        <label for="">Confirmar Senha</label>
+                        <div class="divOlho">
+                            <input type="password" id="Box3">
+                            <img  id="confirmarNova" class="imgOlho" width="30px" height="30px" src="../imagens/Olho fechado.png" alt="">
+                        </div>
+                    </div>
+
+                    <div id="botaoConfirmar">
+                        <button id="confirmar">Confirmar</button>
+                    </div>
+                </form>
+            </div>
+
+            <div id="texto">
+
+                <p>Ao alterar sua senha, siga estas etapas para garantir sua segurança: 
+                <br>
+                <br>
+                <ol>
+                    <li>Use uma combinação forte: Inclua letras maiúsculas e minúsculas, números e símbolos;</li>
+                    <li>Utilize pelo menos 8 caracteres;</li>
+                    <li>Não reutilize senhas;</li>
+                    <li>Evite senhas óbvias, não use informações pessoais ou sequências simples.</li>
+                </ol>
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="divLogoFooter">
+            <a href="home.html"><img class="logoPorco" src="../imagens/logoPorco.png" alt="Porco"></a>
+        </div>
+
+        <div class="rodape">
+            <a class="aRodape" href="suportePerfil.html">Suporte</a>
+            <a class="aRodape" href="privacidadePerfil.html">Polítca de Privacidade</a>
+        </div>
+
+        <div class="rodape">
+            <p class="textoRodape">Horário: 8hrs - 18hrs</p>
+            <p class="textoRodape">Telefone: (11) 98874-6969</p>
+            <p class="textoRodape">Email: rdinvestimentos@gmail.com</p>
+        </div>
+
+        <div class="rodape">
+            <p class="textoRodape">Local: Faria Lima, 108</p>
+            <p class="textoRodape">São Paulo - Brasil</p>
+        </div>
+
+        <div id="divRedeSocial">
+            <a href="https://www.facebook.com/"><img class="imagemFooter" src="../imagens/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img class="imagemFooter" src="../imagens/instagram.png" alt="instagram"></a>
+            <a href="https://x.com/?lang=pt-br"><img class="imagemFooter" src="../imagens/twitter.png" alt="twitter"></a>
+            <a href="https://www.whatsapp.com/?lang=pt_BR"><img class="imagemFooter" src="../imagens/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.youtube.com/?gl=BR&hl=PT"><img class="imagemFooter" src="../imagens/youtube.png" alt="youtube"></a>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

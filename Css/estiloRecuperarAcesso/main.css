@@ -1,0 +1,75 @@
+#container {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+#container h1{
+    margin-bottom: 20px;
+}
+
+#campoEmail {
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloEmail {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 400px;
+    margin-top: 25px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+#divBotaoConta {
+    width: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 160px;
+    font-weight: bold;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover { 
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#aMain {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
